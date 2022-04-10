@@ -1,0 +1,59 @@
+body {
+    /* Сброс стандартых стилей */
+    margin: 0;
+}
+
+.nav {
+    padding: 15px;
+    background-color: cadetblue;
+    color: white;
+}
+
+.nav-ul {
+    /* Сброс стандартых стилей */
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    /* Выстраивание элементов в строку */
+    display: flex;
+}
+
+.nav-li {
+    /* Отступ сверху и снизу 0, справа и слева 10px */
+    padding: 0 2vw;
+    background-color: aliceblue;
+    color: black;
+    margin: 1vw;
+}
+.nav-li:hover {
+    color: azure;
+    color: black;
+    /* Подчеркивание текста при наведении */
+    text-decoration: underline;
+}
+
+.nav-a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.banner-img {
+    margin: 3vh 0;
+    width: 40vw;
+    padding-left: 28vw;
+    padding-right: 28vw;
+}
+
+.main {
+    background-color: aquamarine;
+    padding: 2vh 3vw;
+}
+.wrapper {
+    display: flex;
+}
+
+.bird-h {
+    text-align: center;
+}
